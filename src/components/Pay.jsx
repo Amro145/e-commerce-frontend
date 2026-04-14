@@ -3,7 +3,6 @@
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { LaptopMinimalCheck, Loader2, ShoppingCart } from "lucide-react";
-
 import Image from "next/image";
 
 const Pay = ({ cart }) => {
