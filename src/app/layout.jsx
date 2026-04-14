@@ -1,10 +1,12 @@
 "use client";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import Image from "next/image";
-import Link from "next/link";
+
 import { Bell, House, ShoppingCart } from "lucide-react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Geist, Geist_Mono } from "next/font/google";
+import Image from "next/image";
+import Link from "next/link";
+
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
